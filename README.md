@@ -34,3 +34,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Repository
+
+This repository contains the **Field Sales Copilot** MVP.
+
+### Clone
+```bash
+git clone https://github.com/rckydrmwnlmbg/field-sales-copilot.git
+cd field-sales-copilot
+```
+
+### Development
+```bash
+npm install
+npm run dev
+```
+
+### CI/CD
+The GitHub Actions workflow `.github/workflows/ci.yml` runs lint, tests, builds, and (optionally) deploys to Vercel on each push to `main`.
